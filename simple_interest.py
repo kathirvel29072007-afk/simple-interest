@@ -1,8 +1,3 @@
-# Simple Interest
-
-This project is a simple interest calculator.
-
-It calculates simple interest based on:
-- Principal
-- Rate of Interest
-- Time Period
+principal = float(input("Enter Principal: ")) rate = float(input("Enter Rate of Interest: ")) time = float(input("Enter Time Period: "))
+simple_interest = (principal * rate * time) / 100
+print("Simple Interest =", simple_interest)
